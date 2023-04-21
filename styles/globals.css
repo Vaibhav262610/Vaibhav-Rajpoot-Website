@@ -40,12 +40,31 @@ html {
   cursor: pointer;
 }
 
-.github-btn {
+.resume-btn {
   /* padding : 30rem; */
-  color: #1890ff;
+  color: #fccf0c;
   background: none;
   border-radius: 0.6rem;
-  border: 0.2rem solid #1890ff;
+  border: 0.2rem solid #fccf0c;
+  padding: 1rem 3rem;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 1.4rem;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+}
+
+.resume-btn:hover {
+  background-color: #fccf0c;
+  color: white;
+}
+
+.github-btn {
+  /* padding : 30rem; */
+  color: #18c9ff;
+  background: none;
+  border-radius: 0.6rem;
+  border: 0.2rem solid #18c9ff;
   padding: 1.2rem 2rem;
   cursor: pointer;
   font-weight: 700;
@@ -128,6 +147,45 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
   background: rgb(255, 255, 255);
 }
 
+
+.about-heading {
+  color: #020a13;
+  font-size: 15rem;
+  -webkit-text-stroke-width: 0.1rem;
+  -webkit-text-stroke-color: #fffb00;
+  font-weight: 600;
+}
+
+.about-main-heading {
+  display: flex;
+  /* z-index: 2; */
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-section {
+  position: relative;
+  /* background-color: red; */
+}
+
+.name-heading {
+  bottom: -2.7rem;
+  position: absolute;
+  font-size: 10rem;
+  color: white;
+  /* background-color: #02ef63;  */
+  /* width: 82rem; */
+}
+
+.nav {
+  -webkit-backdrop-filter: blur(0.8rem);
+  backdrop-filter: blur(0.8rem);
+}
+
+.box {
+  background-color: #1d2f41;
+  border: 0.1rem solid rgb(206, 206, 206);
+}
 
 
 @media (max-width: 768px) {
