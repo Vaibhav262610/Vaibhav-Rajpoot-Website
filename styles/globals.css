@@ -188,6 +188,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
   .main-heading{
     margin-top: 10px;
     font-size: 60px;
+    font-weight: 800;
     line-height: 1;
   }
   .main-para {
