@@ -180,9 +180,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
   .main {
     width: 50rem;
     margin-left: 22px;
+    padding-bottom: 80px;
+  }
+  .wave{
+    font-weight: 700;
   }
   .main-heading{
-    font-size: 90px;
+    margin-top: 10px;
+    font-size: 60px;
     line-height: 1;
   }
   .main-para {
@@ -190,7 +195,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
     /* width: max-content; */
   }
   .head-text {
-    font-size: 3rem;
+    font-size: 3.2rem;
+    padding-top: 20px;
+    font-weight: 800;
+  }
+  .buttons{
+    flex-direction: column;
   }
 }
 

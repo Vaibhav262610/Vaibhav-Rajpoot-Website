@@ -2,6 +2,7 @@ import { Inter } from 'next/font/google'
 import Navbar from '@/components/Navbar'
 import Header from '@/components/Header'
 import SideIcons from '@/components/Sideicons'
+import Head from 'next/head'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -9,7 +10,9 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <>
-
+    <Head>
+      <title>Vaibhav-Rajpoot</title>
+    </Head>
       <SideIcons />
       <Navbar />
       <Header />
