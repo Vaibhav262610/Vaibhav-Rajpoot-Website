@@ -1,0 +1,232 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #020a13;
+  font-family: 'Raleway', sans-serif;
+  /* color: rgb(223, 223, 223); */
+  color: white;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+::-webkit-scrollbar {
+  width: 0.2rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #05182c;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(255, 255, 255);
+}
+
+.main-button {
+  color: white;
+  font-size: 1.875rem;
+  padding: 0.3rem 2rem;
+  transition: 0.3s;
+  background: none;
+  border: 0.2rem solid white;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.github-btn {
+  /* padding : 30rem; */
+  color: #1890ff;
+  background: none;
+  border-radius: 0.6rem;
+  border: 0.2rem solid #1890ff;
+  padding: 1.2rem 2rem;
+  cursor: pointer;
+  font-weight: 700;
+  transition: 0.3s;
+  font-size: 1.3rem;
+}
+.check-btn {
+  /* padding : 30rem; */
+  color: #02ef63;
+  background: none;
+  border-radius: 0.6rem;
+  border: 0.2rem solid #02ef63;
+  padding: 1.2rem 3rem;
+  cursor: pointer;
+  font-weight: 800;
+  transition: 0.3s;
+  font-size: 1.4rem;
+}
+
+.check-btn:hover {
+  background-color: #02ef63;
+  color: white;
+}
+
+
+.github-btn:hover {
+  background-color: #1890ff;
+}
+.github-icon:hover{
+  fill: #fff;
+}
+
+
+.github {
+  z-index: 2;
+  right: 5rem;
+  bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-end;
+  cursor: pointer;
+  position: fixed;
+}
+.git:hover {
+  fill: #02ef63;
+  transition: 0.2s;
+}
+
+
+
+.instagram:hover{
+  transition: 0.2s;
+  background: #f09433; 
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  }
+
+.email:hover {
+  fill: #ef4444;
+  transition: 0.2s;
+}
+
+.linkdin:hover {
+  fill: #0ce0fc;
+  transition: 0.2s;
+}
+
+::-webkit-scrollbar-track {
+  background: #05182c;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(255, 255, 255);
+}
+
+
+
+@media (max-width: 768px) {
+  html {
+    font-size: 55%;
+  }
+  .main {
+    width: 50rem;
+    margin-left: 22px;
+    margin-top: 24px;
+  }
+  .head-text {
+    font-size: 3rem;
+  }
+  .about-section {
+    display: none;
+  }
+  
+  .check-btn {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .github-btn {
+    font-size: 2rem;
+  }
+  .resume-btn {
+    font-size: 2rem;
+  }
+  .whyme {
+    right: 0;
+    padding-left: 17rem;
+    width: max-content;
+  }
+  .boxes {
+    padding-left: 17rem;
+  }
+  .work-btn {
+    padding-left: 17rem;
+  }
+  .end {
+    margin-top: 30rem;
+    padding-left: 20rem;
+  }
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 50%;
+  }
+  .main {
+    width: 50rem;
+    margin-left: 22px;
+  }
+  .main-heading{
+    font-size: 90px;
+    line-height: 1;
+  }
+  .main-para {
+    font-size: 2rem;
+    /* width: max-content; */
+  }
+  .head-text {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .main {
+    padding-left: 3rem;
+    padding-top: 25rem;
+  }
+
+  .whyme {
+    position: relative;
+    left: 40;
+    width: 140%;
+    padding-top: 40rem;
+    /* width: max-content; */
+    /* margin-left: 20rem; */
+  }
+  .work {
+    margin-top: 40rem;
+  }
+  .end {
+    margin-top: 30rem;
+    padding-left: 20rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .whyme {
+    margin-top: 40rem;
+    width: 140%;
+  }
+  .end {
+    margin-top: 30rem;
+    padding-left: 20rem;
+  }
+  .about-section{
+    width: 20rem;
+  }
+}
