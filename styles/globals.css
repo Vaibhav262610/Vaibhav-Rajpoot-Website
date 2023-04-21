@@ -280,28 +280,37 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
   .whyme {
     position: relative;
     left: 40;
-    width: 140%;
+    width: 100%;
     padding-top: 40rem;
     /* width: max-content; */
     /* margin-left: 20rem; */
   }
   .work {
     margin-top: 40rem;
+    margin-left: 150px;
   }
   .end {
-    margin-top: 30rem;
-    padding-left: 20rem;
+    margin-top: 10rem;
+    /* padding-left: 20rem; */
   }
 }
 
 @media (max-width: 350px) {
   .whyme {
     margin-top: 40rem;
-    width: 140%;
+    width: 100%;
   }
   .end {
     margin-top: 30rem;
-    padding-left: 20rem;
+    /* padding-left: 20rem; */
+  }
+  .work{
+    width: 80%;
+  }
+  .boxes{
+    width: 100%;
+    right: 0;
+    padding-right: 150px;
   }
   .about-section{
     width: 20rem;

@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Footer = () => {
@@ -19,8 +20,12 @@ const Footer = () => {
             <p className='text-4xl text-gray-400'>I'm available for freelance projects. Let's work together to create<br/> something worth sharing.</p>
             <br/>
             <div className='flex flex-row gap-5'>
-            <button className='resume-btn hover:text-white' >Linkedin</button>
-            <button className='github-btn hover:text-white' >Github</button>
+                <Link href='https://github.com/Vaibhav262610'>
+                    <button className='github-btn hover:text-white' >Github</button>
+                </Link>
+                <Link href='https://www.linkedin.com/feed/'>
+                    <button className='resume-btn hover:text-white' >Linkedin</button>
+                </Link>
             </div>
         </div>
 

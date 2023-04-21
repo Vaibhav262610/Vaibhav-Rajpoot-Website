@@ -19,7 +19,7 @@ const Header = () => {
           </p>
           <div className="buttons flex pt-10 gap-5">
             
-            <a href="https://github.com/Vaibhav262610" target="_blank">
+            <Link href="https://github.com/Vaibhav262610" target="_blank">
               <button className="github-btn hover:text-white flex gap-2">
                   <svg
                     className="mr-2"
@@ -35,7 +35,7 @@ const Header = () => {
                   </svg>
                 Github
               </button>
-            </a>
+            </Link>
             <Link href="/Progress">
               <button className="check-btn hover:text-white">
                 Check Out My Work

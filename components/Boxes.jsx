@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 // import hero from '../Components/Img/chrome_mIA100o9RG.png'
 
 
@@ -16,19 +17,21 @@ const Boxes = ({ProjectName , image , link}) => {
             <p className='text-gray-400 text-2xl'>Personal</p>
         </div>
             <hr className='mt-8' />
-            <a href={link} target='_blank'>
+            {/* <Link href={link} target='_blank'> */}
         <div className='flex flex-col gap-3 mt-8'>
             <h1 className='text-4xl font-semibold'>{ProjectName}</h1>
             <h1 className='heading-2'>Currently Working on</h1>
             <h1 className='heading-2'>2022</h1>
         <div className='mt-6'>
-            <Image className='border-2 rounded-2xl' src={image} objectFit='contain' alt='Not Available' width={320} height={200} />
+            <a href={link} >
+            <Image className='images cursor-default border-2 rounded-2xl' src={image} objectFit='contain' alt='Not Available' width={320} height={200} />
+            </a>
         </div>
         <div className='flex justify-between p-4'>
             <h1 className='text-2xl text-blue-600 cursor-pointer font-semibold'><a href={link} target='_blank'>Visit 🤜</a></h1>
         </div>
         </div>
-        </a>
+        {/* </Link> */}
     </div>
     </>
   )

@@ -24,7 +24,7 @@ const About = () => {
             Want to know more?
           </p>
           <div className="flex gap-5">
-            <Link href="#">
+            <Link href="/Progress">
               <button className="check-btn hover:text-white">
                 Know More
               </button>
