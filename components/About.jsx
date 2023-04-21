@@ -20,7 +20,7 @@ const About = () => {
           <p className="text-4xl text-gray-400">
             I am a Front-end creative developer based in Barielly, India. bhlahh blahh blahhhh
           </p>
-          <p className="text-3xl pb-5 text-green-400 font-bold">
+          <p className="text-3xl pt-3 pb-10 text-green-400 font-bold">
             Want to know more?
           </p>
           <div className="flex gap-5">

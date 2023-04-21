@@ -25,7 +25,7 @@ const Footer = () => {
         </div>
 
          </div>
-        <div className='end mt-20 flex flex-col justify-center items-center'>
+        <div className='end flex flex-col justify-center items-center'>
             <p className='text-2xl text-gray-400 font-semibold'>Designed and Developed with 💖</p>
             <br/>
             

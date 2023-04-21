@@ -7,6 +7,13 @@ body {
   font-family: 'Raleway', sans-serif;
   /* color: rgb(223, 223, 223); */
   color: white;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
 }
 
 html {
@@ -177,6 +184,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
   /* width: 82rem; */
 }
 
+
 .nav {
   -webkit-backdrop-filter: blur(0.8rem);
   backdrop-filter: blur(0.8rem);
@@ -216,18 +224,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
   }
   .whyme {
     right: 0;
-    padding-left: 17rem;
-    width: max-content;
+    padding-left: 3rem;
+    width: 80%;
   }
   .boxes {
-    padding-left: 17rem;
+    /* padding-left: rem; */
   }
   .work-btn {
-    padding-left: 17rem;
+    /* padding-left: rem; */
   }
   .end {
-    margin-top: 30rem;
-    padding-left: 20rem;
+    /* margin-top: 30rem;
+    padding-left: 20rem; */
   }
 }
 

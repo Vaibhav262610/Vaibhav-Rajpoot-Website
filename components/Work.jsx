@@ -1,5 +1,6 @@
 import React from 'react'
 import Boxes from './Boxes'
+import Link from 'next/link'
 
 const Work = () => {
   return (
@@ -48,7 +49,9 @@ const Work = () => {
             
              </div>
              <div className='work-btn'>
-             <button className='resume-btn hover:text-white' >View More</button>
+              <Link href='/Progress'>
+                  <button  className='resume-btn hover:text-white' >View More</button>
+              </Link>
              </div>
     </div>
     </>
