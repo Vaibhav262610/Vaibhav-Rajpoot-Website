@@ -178,8 +178,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
     font-size: 50%;
   }
   .main {
-    width: 50rem;
-    margin-left: 22px;
+    width: 40rem;
+    margin-left: 2px;
     padding-bottom: 80px;
   }
   .wave{
